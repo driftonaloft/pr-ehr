@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Drifton"
+	],
+	"copyright": "Copyright © 2023, Drifton",
+	"dependencies": {
+		"nudsfml": ">=0.0.10-alpha <0.1.0-0"
+	},
+	"description": "A Gui Library for Nudsfml and D",
+	"license": "proprietary",
+	"name": "dguilib"
+}

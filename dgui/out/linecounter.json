@@ -1,0 +1,1166 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/drifton/projects/dgui",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-06-28 15:50:35",
+            "filesum": 168,
+            "codesum": 10528,
+            "commentsum": 1350,
+            "blanksum": 1329,
+            "statistics": {
+                "": {
+                    "code": 167,
+                    "comment": 2,
+                    "blank": 36
+                },
+                ".json": {
+                    "code": 20,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".txt": {
+                    "code": 177,
+                    "comment": 6,
+                    "blank": 72
+                },
+                ".svg": {
+                    "code": 3282,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".pdf": {
+                    "code": 792,
+                    "comment": 8,
+                    "blank": 42
+                },
+                ".d": {
+                    "code": 6068,
+                    "comment": 1334,
+                    "blank": 1176
+                },
+                ".rtf": {
+                    "code": 22,
+                    "comment": 0,
+                    "blank": 2
+                }
+            },
+            "filelist": [
+                {
+                    "filename": "._.DS_Store",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-534E36755598C5B9B93C7DCB9C6849C7/dgui",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-534E36755598C5B9B93C7DCB9C6849C7/dgui.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-88BB557E3A353D69DCC8867ECB59E9DE/dgui.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": ".dub/code/dgui-test-library-unittest-posix.osx.darwin-x86_64-dmd_v2.098.0-22E4C0A40E1A7204BDE9DC05EA8265A8_dub_test_root.d"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": "data/._.DS_Store",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/control-button-array-graphics-export.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/controls.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/._.DS_Store",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/._aquarius.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/._camingocode.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/._courier-prime-sans.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/._fira-mono.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/._hack.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/._Aquarius-RegularMono.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-Bold.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-Regular.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-RegularMono.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-RegularMono.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-RegularSmallCaps.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius 2/Aquarius-RegularSmallCaps.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "data/font/aquarius 2/README.txt"
+                },
+                {
+                    "filename": "data/font/aquarius.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-Bold.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-Regular.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-RegularMono.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-RegularMono.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-RegularSmallCaps.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/aquarius/Aquarius-RegularSmallCaps.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "data/font/aquarius/README.txt"
+                },
+                {
+                    "filename": "data/font/camingocode 2/._CamingoCode-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode 2/CamingoCode-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode 2/CamingoCode-BoldItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode 2/CamingoCode-Italic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode 2/CamingoCode-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 8,
+                    "comment": 1,
+                    "filename": "data/font/camingocode 2/readme.txt"
+                },
+                {
+                    "blank": 21,
+                    "code": 396,
+                    "comment": 4,
+                    "filename": "data/font/camingocode 2/supplement.pdf"
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Bold.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 383,
+                    "comment": 0,
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Bold.svg"
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Bold.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-BoldItalic.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 440,
+                    "comment": 0,
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-BoldItalic.svg"
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-BoldItalic.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Italic.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 437,
+                    "comment": 0,
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Italic.svg"
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Italic.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Regular.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 381,
+                    "comment": 0,
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Regular.svg"
+                },
+                {
+                    "filename": "data/font/camingocode 2/webfonts/CamingoCode-Regular.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode/CamingoCode-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode/CamingoCode-BoldItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode/CamingoCode-Italic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode/CamingoCode-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 8,
+                    "comment": 1,
+                    "filename": "data/font/camingocode/readme.txt"
+                },
+                {
+                    "blank": 21,
+                    "code": 396,
+                    "comment": 4,
+                    "filename": "data/font/camingocode/supplement.pdf"
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Bold.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 383,
+                    "comment": 0,
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Bold.svg"
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Bold.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-BoldItalic.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 440,
+                    "comment": 0,
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-BoldItalic.svg"
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-BoldItalic.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Italic.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 437,
+                    "comment": 0,
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Italic.svg"
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Italic.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Regular.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 381,
+                    "comment": 0,
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Regular.svg"
+                },
+                {
+                    "filename": "data/font/camingocode/webfonts/CamingoCode-Regular.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Courier Prime Sans/Courier Prime Sans Bold Italic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Courier Prime Sans/Courier Prime Sans Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Courier Prime Sans/Courier Prime Sans Italic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Courier Prime Sans/Courier Prime Sans.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 42,
+                    "code": 81,
+                    "comment": 2,
+                    "filename": "data/font/Courier Prime Sans/LICENSE/OFL-FAQ.txt"
+                },
+                {
+                    "blank": 18,
+                    "code": 76,
+                    "comment": 2,
+                    "filename": "data/font/Courier Prime Sans/LICENSE/OFL.txt"
+                },
+                {
+                    "filename": "data/font/courier-prime-sans.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/._.DS_Store",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/eot/FiraMono-Bold.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/eot/FiraMono-Medium.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/eot/FiraMono-Regular.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "data/font/Fira Mono 2/Fira_4_1_Version_Report.rtf"
+                },
+                {
+                    "blank": 18,
+                    "code": 76,
+                    "comment": 1,
+                    "filename": "data/font/Fira Mono 2/LICENSE"
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/otf/FiraMono-Bold.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/otf/FiraMono-Medium.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/otf/FiraMono-Regular.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/ttf/FiraMono-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/ttf/FiraMono-Medium.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/ttf/FiraMono-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/woff/FiraMono-Bold.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/woff/FiraMono-Medium.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/woff/FiraMono-Regular.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/woff2/FiraMono-Bold.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/woff2/FiraMono-Medium.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono 2/woff2/FiraMono-Regular.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/eot/FiraMono-Bold.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/eot/FiraMono-Medium.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/eot/FiraMono-Regular.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "data/font/Fira Mono/Fira_4_1_Version_Report.rtf"
+                },
+                {
+                    "blank": 18,
+                    "code": 76,
+                    "comment": 1,
+                    "filename": "data/font/Fira Mono/LICENSE"
+                },
+                {
+                    "filename": "data/font/Fira Mono/otf/FiraMono-Bold.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/otf/FiraMono-Medium.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/otf/FiraMono-Regular.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/ttf/FiraMono-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/ttf/FiraMono-Medium.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/ttf/FiraMono-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/woff/FiraMono-Bold.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/woff/FiraMono-Medium.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/woff/FiraMono-Regular.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/woff2/FiraMono-Bold.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/woff2/FiraMono-Medium.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/Fira Mono/woff2/FiraMono-Regular.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/fira-mono.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/hack.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/hack/Hack-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/hack/Hack-BoldOblique.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/hack/Hack-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "data/font/hack/Hack-RegularOblique.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "dgui",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "dgui-test-library",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "dub.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "dub.selections.json"
+                },
+                {
+                    "blank": 26,
+                    "code": 100,
+                    "comment": 4,
+                    "filename": "source/app.d"
+                },
+                {
+                    "blank": 101,
+                    "code": 472,
+                    "comment": 17,
+                    "filename": "source/formeditor.d"
+                },
+                {
+                    "blank": 38,
+                    "code": 177,
+                    "comment": 2,
+                    "filename": "source/gfx/atlas.d"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "source/gfx/color.d"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "source/gfx/package.d"
+                },
+                {
+                    "blank": 12,
+                    "code": 88,
+                    "comment": 3,
+                    "filename": "source/gfx/roundedrectangle.d"
+                },
+                {
+                    "blank": 29,
+                    "code": 133,
+                    "comment": 5,
+                    "filename": "source/gfx/vtxshape.d"
+                },
+                {
+                    "filename": "source/gui/._button.d",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "source/gui/._label.d",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "source/gui/._listbox.d",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 17,
+                    "code": 83,
+                    "comment": 4,
+                    "filename": "source/gui/button.d"
+                },
+                {
+                    "blank": 32,
+                    "code": 285,
+                    "comment": 1,
+                    "filename": "source/gui/cage.d"
+                },
+                {
+                    "blank": 13,
+                    "code": 63,
+                    "comment": 2,
+                    "filename": "source/gui/checkbox.d"
+                },
+                {
+                    "blank": 25,
+                    "code": 140,
+                    "comment": 6,
+                    "filename": "source/gui/console.d"
+                },
+                {
+                    "blank": 33,
+                    "code": 298,
+                    "comment": 3,
+                    "filename": "source/gui/drawer.d"
+                },
+                {
+                    "blank": 34,
+                    "code": 145,
+                    "comment": 10,
+                    "filename": "source/gui/dropdown.d"
+                },
+                {
+                    "blank": 21,
+                    "code": 66,
+                    "comment": 37,
+                    "filename": "source/gui/forms.d"
+                },
+                {
+                    "blank": 8,
+                    "code": 24,
+                    "comment": 2,
+                    "filename": "source/gui/gfxbutton.d"
+                },
+                {
+                    "blank": 8,
+                    "code": 38,
+                    "comment": 1,
+                    "filename": "source/gui/label.d"
+                },
+                {
+                    "blank": 33,
+                    "code": 177,
+                    "comment": 2,
+                    "filename": "source/gui/listbox.d"
+                },
+                {
+                    "blank": 40,
+                    "code": 178,
+                    "comment": 11,
+                    "filename": "source/gui/mltextbox.d"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "source/gui/package.d"
+                },
+                {
+                    "blank": 8,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "source/gui/popup.d"
+                },
+                {
+                    "blank": 14,
+                    "code": 76,
+                    "comment": 8,
+                    "filename": "source/gui/section.d"
+                },
+                {
+                    "blank": 38,
+                    "code": 142,
+                    "comment": 2,
+                    "filename": "source/gui/spinner.d"
+                },
+                {
+                    "blank": 35,
+                    "code": 239,
+                    "comment": 5,
+                    "filename": "source/gui/system.d"
+                },
+                {
+                    "blank": 38,
+                    "code": 205,
+                    "comment": 3,
+                    "filename": "source/gui/table.d"
+                },
+                {
+                    "blank": 12,
+                    "code": 51,
+                    "comment": 2,
+                    "filename": "source/gui/textblock.d"
+                },
+                {
+                    "blank": 23,
+                    "code": 141,
+                    "comment": 2,
+                    "filename": "source/gui/textbox.d"
+                },
+                {
+                    "blank": 17,
+                    "code": 76,
+                    "comment": 3,
+                    "filename": "source/gui/togglebutton.d"
+                },
+                {
+                    "blank": 61,
+                    "code": 225,
+                    "comment": 11,
+                    "filename": "source/gui/tree.d"
+                },
+                {
+                    "blank": 47,
+                    "code": 210,
+                    "comment": 11,
+                    "filename": "source/gui/widgets.d"
+                },
+                {
+                    "blank": 20,
+                    "code": 72,
+                    "comment": 1,
+                    "filename": "source/gui/window.d"
+                },
+                {
+                    "blank": 14,
+                    "code": 55,
+                    "comment": 5,
+                    "filename": "source/logon.d"
+                },
+                {
+                    "blank": 16,
+                    "code": 73,
+                    "comment": 1,
+                    "filename": "source/scene.d"
+                },
+                {
+                    "blank": 23,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "source/testing.d"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "source/util/array.d"
+                },
+                {
+                    "blank": 5,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "source/util/color.d"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "source/util/command.d"
+                },
+                {
+                    "blank": 9,
+                    "code": 34,
+                    "comment": 1,
+                    "filename": "source/util/debug.d"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "source/util/package.d"
+                },
+                {
+                    "blank": 18,
+                    "code": 68,
+                    "comment": 1,
+                    "filename": "source/util/performancedisplay.d"
+                },
+                {
+                    "blank": 289,
+                    "code": 1660,
+                    "comment": 1168,
+                    "filename": "source/util/xml.d"
+                }
+            ]
+        }
+    ]
+}

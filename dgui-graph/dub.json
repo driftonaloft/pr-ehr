@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"drifton aloft"
+	],
+	"copyright": "Copyright © 2022, drifton aloft",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "dgui-graph",
+	"dependencies": {
+		"nudsfml": "~main"
+	}
+}

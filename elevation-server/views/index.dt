@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title Elevation EHR Server Manager - Login
+    body
+        h1 Elevation EHR Server Manager - Login
+        form(action='/login', method='post')
+            div
+                label(for='username') Username:
+                input#username(type='text', name='username', id='username',autofocus=true)
+            div
+                label(for='password') Password:
+                input(type='password', name='password', id='password')
+            button(type="submit") Login

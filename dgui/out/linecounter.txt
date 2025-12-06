@@ -1,0 +1,191 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-06-28 15:50:35
+count workspace : /Users/drifton/projects/dgui
+total files : 168
+total code lines : 10528
+total comment lines : 1350
+total blank lines : 1329
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            167|              2|             36|    1.6|
+   |          .json|             20|              0|              1|   0.19|
+   |           .txt|            177|              6|             72|    1.7|
+   |           .svg|           3282|              0|              0|     31|
+   |           .pdf|            792|              8|             42|    7.5|
+   |             .d|           6068|           1334|           1176|     58|
+   |           .rtf|             22|              0|              2|   0.21|
+   -------------------------------------------------------------------------
+._.DS_Store, it is a binary file.
+.dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-534E36755598C5B9B93C7DCB9C6849C7/dgui, it is a binary file.
+.dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-534E36755598C5B9B93C7DCB9C6849C7/dgui.o, it is a binary file.
+.dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-88BB557E3A353D69DCC8867ECB59E9DE/dgui.o, it is a binary file.
+.dub/code/dgui-test-library-unittest-posix.osx.darwin-x86_64-dmd_v2.098.0-22E4C0A40E1A7204BDE9DC05EA8265A8_dub_test_root.d, code is 51, comment is 0, blank is 2.
+.gitignore, code is 15, comment is 0, blank is 0.
+data/._.DS_Store, it is a binary file.
+data/control-button-array-graphics-export.png, it is a binary file.
+data/controls.png, it is a binary file.
+data/font/._.DS_Store, it is a binary file.
+data/font/._aquarius.zip, it is a binary file.
+data/font/._camingocode.zip, it is a binary file.
+data/font/._courier-prime-sans.zip, it is a binary file.
+data/font/._fira-mono.zip, it is a binary file.
+data/font/._hack.zip, it is a binary file.
+data/font/aquarius 2/._Aquarius-RegularMono.ttf, it is a binary file.
+data/font/aquarius 2/Aquarius-Bold.otf, it is a binary file.
+data/font/aquarius 2/Aquarius-Bold.ttf, it is a binary file.
+data/font/aquarius 2/Aquarius-Regular.otf, it is a binary file.
+data/font/aquarius 2/Aquarius-Regular.ttf, it is a binary file.
+data/font/aquarius 2/Aquarius-RegularMono.otf, it is a binary file.
+data/font/aquarius 2/Aquarius-RegularMono.ttf, it is a binary file.
+data/font/aquarius 2/Aquarius-RegularSmallCaps.otf, it is a binary file.
+data/font/aquarius 2/Aquarius-RegularSmallCaps.ttf, it is a binary file.
+data/font/aquarius 2/README.txt, code is 2, comment is 0, blank is 1.
+data/font/aquarius.zip, it is a binary file.
+data/font/aquarius/Aquarius-Bold.otf, it is a binary file.
+data/font/aquarius/Aquarius-Bold.ttf, it is a binary file.
+data/font/aquarius/Aquarius-Regular.otf, it is a binary file.
+data/font/aquarius/Aquarius-Regular.ttf, it is a binary file.
+data/font/aquarius/Aquarius-RegularMono.otf, it is a binary file.
+data/font/aquarius/Aquarius-RegularMono.ttf, it is a binary file.
+data/font/aquarius/Aquarius-RegularSmallCaps.otf, it is a binary file.
+data/font/aquarius/Aquarius-RegularSmallCaps.ttf, it is a binary file.
+data/font/aquarius/README.txt, code is 2, comment is 0, blank is 1.
+data/font/camingocode 2/._CamingoCode-Regular.ttf, it is a binary file.
+data/font/camingocode 2/CamingoCode-Bold.ttf, it is a binary file.
+data/font/camingocode 2/CamingoCode-BoldItalic.ttf, it is a binary file.
+data/font/camingocode 2/CamingoCode-Italic.ttf, it is a binary file.
+data/font/camingocode 2/CamingoCode-Regular.ttf, it is a binary file.
+data/font/camingocode 2/readme.txt, code is 8, comment is 1, blank is 5.
+data/font/camingocode 2/supplement.pdf, code is 396, comment is 4, blank is 21.
+data/font/camingocode 2/webfonts/CamingoCode-Bold.eot, it is a binary file.
+data/font/camingocode 2/webfonts/CamingoCode-Bold.svg, code is 383, comment is 0, blank is 0.
+data/font/camingocode 2/webfonts/CamingoCode-Bold.woff, it is a binary file.
+data/font/camingocode 2/webfonts/CamingoCode-BoldItalic.eot, it is a binary file.
+data/font/camingocode 2/webfonts/CamingoCode-BoldItalic.svg, code is 440, comment is 0, blank is 0.
+data/font/camingocode 2/webfonts/CamingoCode-BoldItalic.woff, it is a binary file.
+data/font/camingocode 2/webfonts/CamingoCode-Italic.eot, it is a binary file.
+data/font/camingocode 2/webfonts/CamingoCode-Italic.svg, code is 437, comment is 0, blank is 0.
+data/font/camingocode 2/webfonts/CamingoCode-Italic.woff, it is a binary file.
+data/font/camingocode 2/webfonts/CamingoCode-Regular.eot, it is a binary file.
+data/font/camingocode 2/webfonts/CamingoCode-Regular.svg, code is 381, comment is 0, blank is 0.
+data/font/camingocode 2/webfonts/CamingoCode-Regular.woff, it is a binary file.
+data/font/camingocode.zip, it is a binary file.
+data/font/camingocode/CamingoCode-Bold.ttf, it is a binary file.
+data/font/camingocode/CamingoCode-BoldItalic.ttf, it is a binary file.
+data/font/camingocode/CamingoCode-Italic.ttf, it is a binary file.
+data/font/camingocode/CamingoCode-Regular.ttf, it is a binary file.
+data/font/camingocode/readme.txt, code is 8, comment is 1, blank is 5.
+data/font/camingocode/supplement.pdf, code is 396, comment is 4, blank is 21.
+data/font/camingocode/webfonts/CamingoCode-Bold.eot, it is a binary file.
+data/font/camingocode/webfonts/CamingoCode-Bold.svg, code is 383, comment is 0, blank is 0.
+data/font/camingocode/webfonts/CamingoCode-Bold.woff, it is a binary file.
+data/font/camingocode/webfonts/CamingoCode-BoldItalic.eot, it is a binary file.
+data/font/camingocode/webfonts/CamingoCode-BoldItalic.svg, code is 440, comment is 0, blank is 0.
+data/font/camingocode/webfonts/CamingoCode-BoldItalic.woff, it is a binary file.
+data/font/camingocode/webfonts/CamingoCode-Italic.eot, it is a binary file.
+data/font/camingocode/webfonts/CamingoCode-Italic.svg, code is 437, comment is 0, blank is 0.
+data/font/camingocode/webfonts/CamingoCode-Italic.woff, it is a binary file.
+data/font/camingocode/webfonts/CamingoCode-Regular.eot, it is a binary file.
+data/font/camingocode/webfonts/CamingoCode-Regular.svg, code is 381, comment is 0, blank is 0.
+data/font/camingocode/webfonts/CamingoCode-Regular.woff, it is a binary file.
+data/font/Courier Prime Sans/Courier Prime Sans Bold Italic.ttf, it is a binary file.
+data/font/Courier Prime Sans/Courier Prime Sans Bold.ttf, it is a binary file.
+data/font/Courier Prime Sans/Courier Prime Sans Italic.ttf, it is a binary file.
+data/font/Courier Prime Sans/Courier Prime Sans.ttf, it is a binary file.
+data/font/Courier Prime Sans/LICENSE/OFL-FAQ.txt, code is 81, comment is 2, blank is 42.
+data/font/Courier Prime Sans/LICENSE/OFL.txt, code is 76, comment is 2, blank is 18.
+data/font/courier-prime-sans.zip, it is a binary file.
+data/font/Fira Mono 2/._.DS_Store, it is a binary file.
+data/font/Fira Mono 2/eot/FiraMono-Bold.eot, it is a binary file.
+data/font/Fira Mono 2/eot/FiraMono-Medium.eot, it is a binary file.
+data/font/Fira Mono 2/eot/FiraMono-Regular.eot, it is a binary file.
+data/font/Fira Mono 2/Fira_4_1_Version_Report.rtf, code is 11, comment is 0, blank is 1.
+data/font/Fira Mono 2/LICENSE, code is 76, comment is 1, blank is 18.
+data/font/Fira Mono 2/otf/FiraMono-Bold.otf, it is a binary file.
+data/font/Fira Mono 2/otf/FiraMono-Medium.otf, it is a binary file.
+data/font/Fira Mono 2/otf/FiraMono-Regular.otf, it is a binary file.
+data/font/Fira Mono 2/ttf/FiraMono-Bold.ttf, it is a binary file.
+data/font/Fira Mono 2/ttf/FiraMono-Medium.ttf, it is a binary file.
+data/font/Fira Mono 2/ttf/FiraMono-Regular.ttf, it is a binary file.
+data/font/Fira Mono 2/woff/FiraMono-Bold.woff, it is a binary file.
+data/font/Fira Mono 2/woff/FiraMono-Medium.woff, it is a binary file.
+data/font/Fira Mono 2/woff/FiraMono-Regular.woff, it is a binary file.
+data/font/Fira Mono 2/woff2/FiraMono-Bold.woff2, it is a binary file.
+data/font/Fira Mono 2/woff2/FiraMono-Medium.woff2, it is a binary file.
+data/font/Fira Mono 2/woff2/FiraMono-Regular.woff2, it is a binary file.
+data/font/Fira Mono/eot/FiraMono-Bold.eot, it is a binary file.
+data/font/Fira Mono/eot/FiraMono-Medium.eot, it is a binary file.
+data/font/Fira Mono/eot/FiraMono-Regular.eot, it is a binary file.
+data/font/Fira Mono/Fira_4_1_Version_Report.rtf, code is 11, comment is 0, blank is 1.
+data/font/Fira Mono/LICENSE, code is 76, comment is 1, blank is 18.
+data/font/Fira Mono/otf/FiraMono-Bold.otf, it is a binary file.
+data/font/Fira Mono/otf/FiraMono-Medium.otf, it is a binary file.
+data/font/Fira Mono/otf/FiraMono-Regular.otf, it is a binary file.
+data/font/Fira Mono/ttf/FiraMono-Bold.ttf, it is a binary file.
+data/font/Fira Mono/ttf/FiraMono-Medium.ttf, it is a binary file.
+data/font/Fira Mono/ttf/FiraMono-Regular.ttf, it is a binary file.
+data/font/Fira Mono/woff/FiraMono-Bold.woff, it is a binary file.
+data/font/Fira Mono/woff/FiraMono-Medium.woff, it is a binary file.
+data/font/Fira Mono/woff/FiraMono-Regular.woff, it is a binary file.
+data/font/Fira Mono/woff2/FiraMono-Bold.woff2, it is a binary file.
+data/font/Fira Mono/woff2/FiraMono-Medium.woff2, it is a binary file.
+data/font/Fira Mono/woff2/FiraMono-Regular.woff2, it is a binary file.
+data/font/fira-mono.zip, it is a binary file.
+data/font/hack.zip, it is a binary file.
+data/font/hack/Hack-Bold.ttf, it is a binary file.
+data/font/hack/Hack-BoldOblique.ttf, it is a binary file.
+data/font/hack/Hack-Regular.ttf, it is a binary file.
+data/font/hack/Hack-RegularOblique.ttf, it is a binary file.
+dgui, it is a binary file.
+dgui-test-library, it is a binary file.
+dub.json, code is 11, comment is 0, blank is 1.
+dub.selections.json, code is 9, comment is 0, blank is 0.
+source/app.d, code is 100, comment is 4, blank is 26.
+source/formeditor.d, code is 472, comment is 17, blank is 101.
+source/gfx/atlas.d, code is 177, comment is 2, blank is 38.
+source/gfx/color.d, code is 38, comment is 0, blank is 6.
+source/gfx/package.d, code is 5, comment is 0, blank is 1.
+source/gfx/roundedrectangle.d, code is 88, comment is 3, blank is 12.
+source/gfx/vtxshape.d, code is 133, comment is 5, blank is 29.
+source/gui/._button.d, it is a binary file.
+source/gui/._label.d, it is a binary file.
+source/gui/._listbox.d, it is a binary file.
+source/gui/button.d, code is 83, comment is 4, blank is 17.
+source/gui/cage.d, code is 285, comment is 1, blank is 32.
+source/gui/checkbox.d, code is 63, comment is 2, blank is 13.
+source/gui/console.d, code is 140, comment is 6, blank is 25.
+source/gui/drawer.d, code is 298, comment is 3, blank is 33.
+source/gui/dropdown.d, code is 145, comment is 10, blank is 34.
+source/gui/forms.d, code is 66, comment is 37, blank is 21.
+source/gui/gfxbutton.d, code is 24, comment is 2, blank is 8.
+source/gui/label.d, code is 38, comment is 1, blank is 8.
+source/gui/listbox.d, code is 177, comment is 2, blank is 33.
+source/gui/mltextbox.d, code is 178, comment is 11, blank is 40.
+source/gui/package.d, code is 20, comment is 0, blank is 2.
+source/gui/popup.d, code is 13, comment is 0, blank is 8.
+source/gui/section.d, code is 76, comment is 8, blank is 14.
+source/gui/spinner.d, code is 142, comment is 2, blank is 38.
+source/gui/system.d, code is 239, comment is 5, blank is 35.
+source/gui/table.d, code is 205, comment is 3, blank is 38.
+source/gui/textblock.d, code is 51, comment is 2, blank is 12.
+source/gui/textbox.d, code is 141, comment is 2, blank is 23.
+source/gui/togglebutton.d, code is 76, comment is 3, blank is 17.
+source/gui/tree.d, code is 225, comment is 11, blank is 61.
+source/gui/widgets.d, code is 210, comment is 11, blank is 47.
+source/gui/window.d, code is 72, comment is 1, blank is 20.
+source/logon.d, code is 55, comment is 5, blank is 14.
+source/scene.d, code is 73, comment is 1, blank is 16.
+source/testing.d, code is 70, comment is 0, blank is 23.
+source/util/array.d, code is 25, comment is 0, blank is 3.
+source/util/color.d, code is 28, comment is 0, blank is 5.
+source/util/command.d, code is 20, comment is 0, blank is 4.
+source/util/debug.d, code is 34, comment is 1, blank is 9.
+source/util/package.d, code is 4, comment is 0, blank is 1.
+source/util/performancedisplay.d, code is 68, comment is 1, blank is 18.
+source/util/xml.d, code is 1660, comment is 1168, blank is 289.
+===============================================================================

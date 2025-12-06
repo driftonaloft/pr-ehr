@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"drifton aloft"
+	],
+	"copyright": "Copyright © 2021, drifton aloft",
+	"dependencies": {
+		"nudsfml": "~master",
+		"vibe-d": "~>0.9.4"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "dgui_editor"
+}

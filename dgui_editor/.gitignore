@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dgui_editor
+dgui_editor.so
+dgui_editor.dylib
+dgui_editor.dll
+dgui_editor.a
+dgui_editor.lib
+dgui_editor-test-*
+*.exe
+*.o
+*.obj
+*.lst

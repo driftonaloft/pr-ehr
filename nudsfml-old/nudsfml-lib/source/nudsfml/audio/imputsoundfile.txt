@@ -1,0 +1,151 @@
+/**
+ * Provide read access to sound files.
+ */
+ 
+class InputSoundFile
+{
+    private sfInputSoundFile* m_soundFile;
+
+    //keeps an instance of the C++ interface stored if used
+    private soundFileStream m_stream;
+
+    /// Default constructor.
+    this()
+    {
+        m_soundFile = sfInputSoundFile_create();
+    }
+
+    /// Destructor.
+    ~this()
+    {
+        import nudsfml.system.config: destructorOutput;
+        mixin(destructorOutput);
+        sfInputSoundFile_destroy(m_soundFile);
+    }
+
+    /**
+     * Open a sound file from the disk for reading.
+     *
+     * The supported audio formats are: WAV (PCM only), OGG/Vorbis, FLAC. The
+     * supported sample sizes for FLAC and WAV are 8, 16, 24 and 32 bit.
+     *
+     * Params:
+     *	filename = Path of the sound file to load
+     *
+     * Returns: true if the file was successfully opened.
+     */
+    bool openFromFile(const(char)[] filename)
+    {
+        import nudsfml.system.string;
+        return sfInputSoundFile_openFromFile(m_soundFile, filename.ptr, filename.length);
+    }
+
+    /**
+     * Open a sound file in memory for reading.
+     *
+     * The supported audio formats are: WAV (PCM only), OGG/Vorbis, FLAC. The
+     * supported sample sizes for FLAC and WAV are 8, 16, 24 and 32 bit.
+     *
+     * Params:
+     *	data = file data in memory
+     *
+     * Returns: true if the file was successfully opened.
+     */
+    bool openFromMemory(const(void)[] data)
+    {
+        return sfInputSoundFile_openFromMemory(m_soundFile, data.ptr, data.length);
+    }
+
+    /**
+     * Open a sound file from a custom stream for reading.
+     *
+     * The supported audio formats are: WAV (PCM only), OGG/Vorbis, FLAC. The
+     * supported sample sizes for FLAC and WAV are 8, 16, 24 and 32 bit.
+     *
+     * Params:
+     *	stream = Source stream to read from
+     *
+     * Returns: true if the file was successfully opened.
+     */
+
+    /**
+     * Read audio samples from the open file.
+     *
+     * Params:
+     *	samples = array of samples to fill
+     *
+     * Returns: Number of samples actually read (may be less samples.length)
+     */
+    long read(short[] samples)
+    {
+        return sfInputSoundFile_read(m_soundFile, samples.ptr, samples.length);
+
+    }
+
+    /**
+     * Change the current read position to the given sample offset.
+     *
+     * This function takes a sample offset to provide maximum precision. If you
+     * need to jump to a given time, use the other overload.
+     *
+     * The sample offset takes the channels into account. Offsets can be
+     * calculated like this: sampleNumber * sampleRate * channelCount.
+     * If the given offset exceeds to total number of samples, this function
+     * jumps to the end of the sound file.
+     *
+     * Params:
+     *	sampleOffset = Index of the sample to jump to, relative to the beginning
+     */
+    void seek(long sampleOffset)
+    {
+        sfInputSoundFile_seek(m_soundFile, sampleOffset);
+    }
+
+    /**
+     * Change the current read position to the given time offset.
+     *
+     * Using a time offset is handy but imprecise. If you need an accurate
+     * result, consider using the overload which takes a sample offset.
+     *
+     * If the given time exceeds to total duration, this function jumps to the
+     * end of the sound file.
+     *
+     * Params:
+     *	timeOffset = Time to jump to, relative to the beginning
+     */
+    void seek(Time timeOffset)
+    {
+        seek(timeOffset.asMicroseconds());
+    }
+
+    /**
+     * Get the total number of audio samples in the file
+     *
+     * Returns: Number of samples.
+     */
+    long getSampleCount() const
+    {
+        return sfInputSoundFile_getSampleCount(m_soundFile);
+    }
+
+    /**
+     * Get the sample rate of the sound
+     *
+     * Returns: Sample rate, in samples per second.
+     */
+    uint getSampleRate() const
+    {
+        return sfInputSoundFile_getSampleRate(m_soundFile);
+    }
+
+    /**
+     * Get the number of channels used by the sound
+     *
+     * Returns: Number of channels (1 = mono, 2 = stereo).
+     */
+    uint getChannelCount() const
+    {
+        return sfInputSoundFile_getChannelCount(m_soundFile);
+    }
+}
+

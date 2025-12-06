@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/elevation-server
+elevation-server.so
+elevation-server.dylib
+elevation-server.dll
+elevation-server.a
+elevation-server.lib
+elevation-server-test-*
+*.exe
+*.o
+*.obj
+*.lst

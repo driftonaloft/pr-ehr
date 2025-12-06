@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Drifton"
+	],
+	"copyright": "Copyright © 2022, Drifton",
+	"description": "ehr-server",
+	"license": "proprietary",
+	"name": "ehr-server",
+	"dependencies": {
+		"crypto": "~>0.2.17"
+	}
+}

@@ -1,0 +1,2 @@
+module nudsfml.audio.soundbufferrecorder;
+

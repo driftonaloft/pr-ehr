@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ehr-server
+ehr-server.so
+ehr-server.dylib
+ehr-server.dll
+ehr-server.a
+ehr-server.lib
+ehr-server-test-*
+*.exe
+*.o
+*.obj
+*.lst

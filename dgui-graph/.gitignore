@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dgui-graph
+dgui-graph.so
+dgui-graph.dylib
+dgui-graph.dll
+dgui-graph.a
+dgui-graph.lib
+dgui-graph-test-*
+*.exe
+*.o
+*.obj
+*.lst

@@ -1,0 +1,7 @@
+"text" = 0xffffffff
+"frame" = 0x808080ff
+"frameOutline" = 0x646464ff
+"button" = 0xa0a0a0ff
+"toggle" = 0xa0a0a0ff
+"toggle_unchecked" = 0xa0a0a0ff
+"toggle_checked" = 0x646464ff

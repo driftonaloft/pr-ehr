@@ -1,0 +1,22 @@
+{
+	"authors": [
+		"Drifton Aloft"
+	],
+	"copyright": "Copyright © 2022, Drifton Aloft",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "nudsfml",
+	"dependencies": {
+		"bindbc-sfml" : "~>0.2.0"
+	},
+	"targetType" : "library",
+	"versions" : [
+		"SFML_Graphics", 
+		"SFML_System", 
+		"SFML_Window",
+		"SFML_Audio",
+		"SFML_Network",
+		"SFML_205",
+		"SFML_250"],
+	"libs" : ["csfml-graphics", "csfml-system", "csfml-window","csfml-audio","csfml-network"]
+}

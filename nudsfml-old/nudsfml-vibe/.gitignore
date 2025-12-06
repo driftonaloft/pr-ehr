@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/nudsfml-vibe
+nudsfml-vibe.so
+nudsfml-vibe.dylib
+nudsfml-vibe.dll
+nudsfml-vibe.a
+nudsfml-vibe.lib
+nudsfml-vibe-test-*
+*.exe
+*.o
+*.obj
+*.lst

@@ -1,0 +1,99 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/drifton/projects/dgui_editor",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-12-15 15:03:03",
+            "filesum": 10,
+            "codesum": 92,
+            "commentsum": 6,
+            "blanksum": 17,
+            "statistics": {
+                "": {
+                    "code": 15,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 17,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".d": {
+                    "code": 60,
+                    "comment": 6,
+                    "blank": 16
+                }
+            },
+            "filelist": [
+                {
+                    "filename": ".dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-47D2D08EC1AB218F59A48DE37F248286/dgui_editor",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-47D2D08EC1AB218F59A48DE37F248286/dgui_editor.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-6A030DADCFDEFFBECED57FF3B736AB00/dgui_editor",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".dub/build/application-debug-posix.osx.darwin-x86_64-dmd_v2.098.0-6A030DADCFDEFFBECED57FF3B736AB00/dgui_editor.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": "dgui_editor",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "dub.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "dub.selections.json"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "source/app.d"
+                },
+                {
+                    "blank": 11,
+                    "code": 51,
+                    "comment": 6,
+                    "filename": "source/application.d"
+                }
+            ]
+        }
+    ]
+}

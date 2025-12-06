@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Drifton"
+	],
+	"copyright": "Copyright © 2023, Drifton",
+	"dependencies": {
+		"vibe-d": "~>0.9.6"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "elevation-server"
+}

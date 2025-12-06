@@ -1,0 +1,10 @@
+nudsfml-test-library
+libnudsfml.a
+
+.dub
+.vscode
+font.png
+Text.png
+
+.DS_Store
+

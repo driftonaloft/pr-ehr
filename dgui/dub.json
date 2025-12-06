@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"drifton aloft"
+	],
+	"copyright": "Copyright © 2021, drifton aloft",
+	"dependencies": {
+		"nudsfml": "~master"
+	},
+	"description": "a gui library using dsfml",
+	"license": "proprietary",
+	"name": "dgui",
+	"versions" :[ "DEBUG_TEXT"]
+}
